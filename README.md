@@ -10,10 +10,14 @@ This is a non-exhaustive list of the main data sets available:
 
 Obtained from: https://archive.ics.uci.edu/dataset/254/qsar+biodegradation
 
-direct file link: [QSAR_biodegradation.csv](classification/QSAR_biodegradation.csv)
+Direct file link: [QSAR_biodegradation.csv](classification/QSAR_biodegradation.csv)
+
+Classification target: last column "EXPERIMENTAL_CLASS": ready biodegradable (RB) and not ready biodegradable (NRB)
 
 ## FDT - Pre-formulation tests on Fast Disintegrating Tablets
 
 Obtained from: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/TUSJYB
 
-direct file link: [FDT_all_excipients.csv](regression/FDT_all_excipients.csv)
+Direct file link: [FDT_all_excipients.csv](regression/FDT_all_excipients.csv)
+
+Regression target: last column "DISTINGRATION_TIME": the time it takes in minutes for the tablet to disintegrate
